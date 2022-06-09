@@ -1,0 +1,176 @@
+body {
+  font-family: Montserrat;
+}
+
+/* Title */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-size: 2.25rem;
+  font-family: ubuntu;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  color: white;
+}
+
+.content {
+  padding-top: 5rem;
+}
+
+.download-btn {
+  margin: 0.5rem 2rem 0.5rem 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  margin: 5rem;
+  /* position: absolute; */
+}
+
+/* Section 2 */
+
+h3 {
+  font-family: montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sec {
+  text-align: center;
+  padding: 2rem;
+}
+
+#features {
+  margin: 4% 16%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+p {
+  color: gray;
+}
+
+.icon {
+  color: rgb(243, 124, 94);
+  margin: 3%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: rgb(243, 124, 94);
+}
+
+.testSection {
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50rem;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 7% 17%;
+}
+
+/* Press section */
+
+#press {
+  background-color: rgb(243, 124, 94);
+  padding: 4%;
+  text-align: center;
+}
+
+.press-logo {
+  width: 16%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.price-row {
+  padding: 3% 7%;
+}
+
+.btn-block {
+  width: 95%;
+}
+
+/* Call to action */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.cta-content {
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-bottom: 5%;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 5%;
+}
+
+.footer-content {
+  padding-top: 2%;
+}
+
+.fa {
+  margin: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+  }
+}
